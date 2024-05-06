@@ -1,0 +1,6 @@
+{
+    "circleci.persistedProjectSelection": [
+        "gh/codepyrater/chatgptClone"
+    ],
+    "circleci.filters.branchFilter": "allBranches"
+}

@@ -133,6 +133,8 @@ border: 1px solid rgba(98,98,98,1);
 
 
 
+
+
 .inp{
   padding: 0.5rem;
   display: flex;
@@ -191,6 +193,10 @@ border: 1px solid rgba(98,98,98,1);
   background: rgba(28,30,58,1);
   width: fit-content;
   border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 70rem;
 }
 
 .chats p{
@@ -202,6 +208,18 @@ border: 1px solid rgba(98,98,98,1);
   
 }
 
-.bot{
 
+/* Hide scrollbar for Chrome, Safari, Opera, Edge, and Brave */
+.chats::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.chats {
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar for Firefox */
+.chats {
+  scrollbar-width: none;
 }

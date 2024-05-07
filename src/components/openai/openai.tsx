@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 
 const openAi = new OpenAI({
     apiKey: "your_api_key_here",
-    dangerouslyAllowBrowser: true // Note: Exposing API keys in client-side code is risky and not recommended
+    dangerouslyAllowBrowser: true //
 });
 
 export async function sendMsgOpenAi(message: string) {

@@ -67,7 +67,7 @@ function App() {
     <div className="App">
       <div className="sideBar">
         <div className="upperSide">
-          <div className="uppserSideTop"><img src= {logo}alt ="logo" className='logo' /> <span className="brand">ChatGPT</span></div>
+          <div className="uppserSideTop"><img src= {logo}alt ="logo" className='logo' /> <span className="brand">JustGPT</span></div>
             <button className="midBtn" onClick={()=>{window.location.reload()}}><img src = {addBtn} alt = "New chat" className='addBtn'/>New Chat</button>
             <div className="upperSideBottom">
               <button className="query"><img src={msgIcon} alt = "Query"/>what is this?</button>

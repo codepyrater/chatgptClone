@@ -1,3 +1,28 @@
+# ChatGPT Clone
+
+## Overview
+This repository contains a ChatGPT-like application that demonstrates the integration of OpenAI's powerful language processing API into a React-based user interface. This project showcases both my passion for cutting-edge technology and my commitment to professional growth as a developer.
+
+## Features
+- **Interactive AI Chat Interface**: Built with React, providing a seamless and responsive user experience.
+- **OpenAI API Integration**: Utilizes OpenAI's GPT model to generate intelligent text-based responses.
+- **Security Practices**: Implements best practices for securing API keys and sensitive data.
+
+## Technical Stack
+- **Frontend**: React
+- **API**: OpenAI
+- **CI/CD**: CircleCI
+
+## CircleCI Pipeline
+The project uses CircleCI for continuous integration, ensuring that every commit is built and tested automatically, helping to maintain high code quality throughout the project's lifecycle.
+- **CircleCI Pipeline**: [View Builds](https://app.circleci.com/pipelines/github/codepyrater/chatgptClone)
+
+## Getting Started
+To get a local copy up and running follow these simple steps:
+1. Clone the repo
+   ```bash
+   git clone https://github.com/codepyrater/chatgptClone.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

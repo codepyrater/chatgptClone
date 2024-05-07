@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 
 const openAi = new OpenAI({
-    apiKey: "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",
+    apiKey: "",
     dangerouslyAllowBrowser: true // Note: Exposing API keys in client-side code is risky and not recommended
 });
 

@@ -18,5 +18,6 @@ export async function sendMsgOpenAi(message: string) {
         presence_penalty: 0,
     });
 
+    
     return res.choices[0].message.content;  // Adjusted to fit the structure of the API response
 }

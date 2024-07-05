@@ -1,10 +1,10 @@
 import OpenAI from 'openai';
 
 const openAi = new OpenAI({
-    apiKey: "your_api_key_here",
+    apiKey: " _key_here",
     dangerouslyAllowBrowser: true //
 });
-
+//impoert statement
 export async function sendMsgOpenAi(message: string) {
     const res = await openAi.chat.completions.create({
         model: "gpt-3.5-turbo-0125", // Ensure you use the exact model name as required
